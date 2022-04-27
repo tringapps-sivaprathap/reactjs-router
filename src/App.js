@@ -2,10 +2,11 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Nav from "./Nav";
 import Home from "./Home";
 import UserLogin from "./UserLogin";
+import UserProfile from "./UserProfile";
 import About from "./About";
 import Profile from "./Profile";
 import Error from "./Error";
-import AuthProvider from "./auth";
+import { AuthProvider } from "./auth";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<UserLogin />} />
+          <Route path="profile" element={<UserProfile />} />
           <Route path="/about" element={<About />}>
             <Route path=":username" element={<Profile />}/>
           </Route>

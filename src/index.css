@@ -108,3 +108,19 @@
 .profile img {
     height: 40vh;
 }
+
+.userprofile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-size: 2rem;
+}
+
+.userprofile button {
+    font-size: 1.4rem;
+    margin-left: 2vw;
+    padding: .5rem;
+    border: 2px solid black;
+    background-color: aquamarine;
+}

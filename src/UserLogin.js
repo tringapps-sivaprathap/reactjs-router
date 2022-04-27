@@ -10,9 +10,7 @@ const UserLogin = () => {
     return (
         <div className="user-login">
             <form onSubmit={(e) => {
-                console.log(auth);
                 e.preventDefault();
-                console.log(auth);
                 auth.signin(username);
                 navigate("/");
                 console.log("Form submitted.");
