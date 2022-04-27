@@ -1,0 +1,110 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: pink;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.navbar > * {
+    padding: .5rem;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-login {
+    background-color: skyblue;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-login form {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.user-login form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-login form div label {
+    margin-right: 1vw; 
+    font-size: 2rem;
+}
+
+.user-login form div input {
+    height: 4vh;
+    border: 2px solid black;
+    outline: none;
+    font-size: 1.3rem;
+}
+
+.user-login form button {
+    font-size: 1.3rem;
+    padding: .2rem;
+    border: 2px solid black;
+    outline: none;
+    background-color: lightgreen;
+}
+
+.about {
+    height: 90vh;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.about h1 {
+    margin: 5vh 0;
+}
+
+.profile-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.profile-links > * {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: blue;
+}
+
+.profile {
+    margin-top: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+.profile img {
+    height: 40vh;
+}
