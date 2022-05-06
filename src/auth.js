@@ -5,8 +5,8 @@ const AuthContext = createContext(null);
 export const AuthProvider = ({ children }) => {
     let [user, setUser] = useState(null);
 
-    const signin = (user) => {
-        setUser(user);
+    const signin = (theUser) => {
+        setUser(theUser);
     };
 
     const logout = () => {
